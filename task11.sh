@@ -1,5 +1,3 @@
-#!/bin/bash
-
 for pid in /proc/[0-9]*/; do
     pid=${pid//[^0-9]/}
     [[ ! -r /proc/$pid/status ]] && continue

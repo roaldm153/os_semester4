@@ -1,5 +1,3 @@
-#!/bin/bash
-
 prev_ppid=""
 sum=0
 count=0
